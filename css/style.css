@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Zen+Maru+Gothic:wght@400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    font-family: "Zen Maru Gothic";
+    font-weight: 700;
+}
+
+#wrapper {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#currybutton {
+    padding: 0 40px;
+    position: relative;
+    top: -160px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#fishricebutton {
+    padding-left: 365px;
+    margin-top: -70px;
+    position: relative;
+    left: 15px;
+    top: -125px;
+    cursor: pointer;
+}
+
+#ramenbutton {
+    padding-left: 675px;
+    margin-top: -70px;
+    position: relative;
+    top: -160px;
+    cursor: pointer;
+}
+
+#content {
+    max-width: 990px;
+    width: 100%;
+}
+
+#curry {
+    padding-bottom: 50px;
+    background-color: #fcb1cc;
+}
+
+#curry h1{
+    color: #fcb1cc;
+}
+
+#curry img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.currydesc {
+    color: rgb(0, 0, 0);
+    margin-left: 350px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-family: "Kosugi Maru";
+    font-size: 20px;
+}
+
+#currying {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#ramen {
+    padding-bottom: 50px;
+    background-color: #fbdd7a;
+}
+
+#ramen h1 {
+    color: #fbdd7a;
+}
+
+#ramen img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ramendesc {
+    color: rgb(0, 0, 0);
+    margin-left: 350px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-family: "Kosugi Maru";
+    font-size: 20px;
+}
+
+#ramening {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#don {
+    padding-bottom: 50px;
+    background-color: #fcb1cc;
+}
+
+#don h1 {
+    color: #fcb1cc;
+}
+
+#don img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.dondesc {
+    color: rgb(0, 0, 0);
+    margin-left: 350px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-family: "Kosugi Maru";
+    font-size: 20px;
+}
+
+#doning {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#bottom {
+    background: url(img/bottompic.jpg);
+}
+
+#ticket {
+    margin: 30px 110px;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#bottom h1 {
+    color: #ff127c;
+}
+
+#bottom img:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {transform: translate(1px, 1px) rotate(0deg);}
+    10% {transform: translate(-1px, -2px) rotate(-1deg);}
+    20% {transform: translate(-3px, 0px) rotate(1deg);}
+    30% {transform: translate(3px, 2px) rotate(0deg);}
+    40% {transform: translate(1px, -1px) rotate(1deg);}
+    50% {transform: translate(-1px, 2px) rotate(-1deg);}
+    60% {transform: translate(-3px, 1px) rotate(0deg);}
+    70% {transform: translate(3px, 1px) rotate(-1deg);}
+    80% {transform: translate(-1px, -1px) rotate(1deg);}
+    90% {transform: translate(1px, 2px) rotate(0deg);}
+    100% {transform: translate(1px, -2px) rotate(-1deg);}
+}
+
+.access p {
+    margin-left: 50px;
+}
+
+.access #akusesu {
+    margin-top: -30px;
+    font-size: 40px;
+    font-family: "Zen Maru Gothic";
+    font-weight: 700;
+}
+
+.access #address {
+    font-size: 25px;
+    font-family: "Zen Maru Gothic";
+    font-weight: 400;
+}
+
