@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: gray;
+    background-image: linear-gradient(#0aeeee, #faadc8, #fbdd7a,#faadc8, #a4fa9d);
     background-size: cover;
 }
 
@@ -48,6 +48,7 @@ h1 {
 #ramenbutton {
     padding-left: 675px;
     margin-top: -70px;
+    margin-bottom: -70px;
     position: relative;
     top: -160px;
     cursor: pointer;
@@ -69,13 +70,13 @@ h1 {
 
 #curry img {
     float: left;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
 }
 
 .currydesc {
     color: rgb(0, 0, 0);
-    margin-left: 350px;
+    margin-left: 420px;
     margin-top: 50px;
     line-height: 25px;
     font-family: "Kosugi Maru";
@@ -99,12 +100,12 @@ h1 {
 #ramen img {
     float: left;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .ramendesc {
     color: rgb(0, 0, 0);
-    margin-left: 350px;
+    margin-left: 420px;
     margin-top: 50px;
     line-height: 25px;
     font-family: "Kosugi Maru";
@@ -128,12 +129,12 @@ h1 {
 #don img {
     float: left;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .dondesc {
     color: rgb(0, 0, 0);
-    margin-left: 350px;
+    margin-left: 420px;
     margin-top: 50px;
     line-height: 25px;
     font-family: "Kosugi Maru";
